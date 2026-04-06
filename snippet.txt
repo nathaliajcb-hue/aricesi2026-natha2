@@ -1,0 +1,22 @@
+<model-viewer src="Frankie Baking Final2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.11049260726949241m 0.5451351796311524m 0.39054129509440716m" data-normal="-0.0653795379011319m 0.3643812952426313m 0.928951983528286m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Nariz</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.3086303876113687m 0.4501467424364636m 0.018524787084883254m" data-normal="0.6038616007216947m 0.19967253454270684m 0.7716748318580333m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Oreja</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.17509649558265572m 0.9599930740975491m 0.02669809659239686m" data-normal="0.8265566393578873m 0.18576238946253917m 0.5313157786049305m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cabello</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.02843716887201586m 0.7301483535320781m 0.2493856597423556m" data-normal="0.08703281695003293m 0.16682327549836304m 0.9821381183549183m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ceja</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.03313839566454957m 0.390425646499606m 0.3926136333898884m" data-normal="0.14854569979854748m 0.6020272916463012m 0.7845363695740175m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Boca</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
